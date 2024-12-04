@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(19, 19, 19);
+}
+
+.logo {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 0;
+}
+
+ul {
+  position: sticky;
+  list-style: none;
+  font-size: 1.3em;
+  width: fit-content;
+  text-align: left;
+  padding: 5px;
+} 
+
+li {
+  font-weight: 700;
+  background-color: rgb(9, 42, 77);
+  border: 6px double rgba(255, 217, 0);
+  color: white;
+  width: 75%;
+  padding: 7px 10px;
+  margin: 7px;
+  border-radius: 15px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  padding: 10px 25px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.flex-row-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hamburger-icon-box {
+  background-color: darkslategrey;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

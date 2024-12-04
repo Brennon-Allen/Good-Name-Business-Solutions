@@ -17,8 +17,8 @@ export default function Menu() {
       </div>
         <li>Home</li>
         <li>About</li>
-        <li>Contact</li>
         <li>Services</li>
+        <li>Contact</li>
       </ul>
     </>
   );
